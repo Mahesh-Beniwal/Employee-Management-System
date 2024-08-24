@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.008);
+    min-width: 70%;
+    box-shadow: 0 0 20px 2px  white;
+}
+.box{
+    min-height: 600px;
+}
+.box1{
+     width: 45%;
+     border-radius: 20px;
+     margin: 2px 0px 2px 2px;
+     background : linear-gradient(rgba(255, 255, 255, 0.058) ,GRAY , rgba(255, 0, 0, 0.205)), url('https://img.freepik.com/free-photo/view-professional-handshake-business-people_23-2150917018.jpg');
+     box-shadow: 0px 3px 10px 2px yellowgreen;
+}
+.box2{
+    width: 60%;
+    margin: 2px 0px 2px 2px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px 2px lightcoral;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.label  {
+    display: inline-block; 
+    width: 40%;
+    height: 9%;
+    margin: 4.5% 5%;
+    color: white;
+    font-size: 18px;
+}
+.fields{
+    display: inline-block; 
+    width: 40%;
+    height: 40%;  
+}
+.inner-label{
+    color: white;
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.Note{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons{
+    width: 100%;
+    margin-top: 5%;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    display: inline-block;
+    text-align: center;
+    padding-top: 8px;
+}
+#submit{
+    color: black;
+}
+.button{
+    width: 30%;
+    margin-left: 10%;
+    height: 40px;
+    font-size: 18px;
+    background-color: white;
+    border: none ;
+    border-radius: 30px;
+}
+
+.button:hover{
+    background-color: black;
+}
+a:hover{
+    color: red;
+}
+#submit:hover{
+    color: white;
+}
+#Google{
+    color: lightcoral;
+}
+
+
