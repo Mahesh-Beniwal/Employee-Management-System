@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Registration Form</title>
+    <link rel="stylesheet" href="Registration.css">
 </head>
 <body>
     <section class="container">
