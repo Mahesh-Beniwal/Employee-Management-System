@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.outer-container{
+    background : linear-gradient(rgba(255, 0, 0, 0.336), rgba(255, 255, 255, 0.434) ,#4217a668) ,url('https://coolbackgrounds.io/images/cool-backgrounds-072ec71a.png');
+    background-repeat: repeat-x;
+    height: 100vh;
+    width: 100vw;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Company-name{
+    font-size: 2vw;
+}
+.inner-container{
+    border-radius: 8px;
+    height: 70%;
+    width: 70%;
+    background-color: white;
+}
+.nav-group{
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+.heading{
+    font-family: "Matemasie", sans-serif;
+    height: 10%;
+    display: inline-block;
+    margin-left: 2%;
+}
+#inner-heading{
+    color: #d9606f;
+    font-size: 2.5vw;
+}
+.inner-navigation{
+    width: 70%;
+    margin: 2% 1% 0 5%;
+}
+.inner-list{
+    display: flex;
+    justify-content: space-evenly   ;
+    list-style: none;
+    width: 100%;
+    font-family: "Matemasie" , sans-serif;
+    font-size: 1.5vw;
+}
+.side-image{
+    background-image: url('./images/side-image.png');
+    height: 95%;
+    width: 50%;
+    margin: 1% 4%;
+    background-size: 100% 100%;
+}
+.bottom-content{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    margin-left: 2%;;
+}
+.inner-content-heading{
+    font-size: 3.5vw;
+    margin: 8% 0 ;
+}
+
+.inner-content-paragraph{
+    font-size: 1.3vw;
+    font-weight: lighter;
+    margin-bottom: 10%;
+    color: gray;
+}
+.hiring-section{
+    color: white;
+    display: inline-block;
+    height: 12%;
+    width: 40%;
+    background-color: red;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 1.3vw;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.inner-link{
+    text-decoration: none;
+    color: #4217a6; 
+}
+.About-us{
+    height: 100vh;
+    width: 100vw;
+    background : linear-gradient(rgba(0, 0, 0, 0.436) ,black) ,url('https://media.istockphoto.com/id/1460755337/photo/white-color-theme-modern-style-office-with-exposed-concrete-floor-and-a-lot-of-plant-3d.jpg?s=612x612&w=0&k=20&c=PX1TFWVrLL34jgkmFREmxrzy3M4rqhBk4NMrHFOTmo8=')
+    ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.About-page-container{
+    height: 60%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 5% 2% 0 10%;
+}
+
+.About-page-heading{
+    font-size: 3.2vw;
+    color: white;
+}
+.Company-name-about-page{
+    color: #d9606f;
+}
+.About-page-paragraph1{
+    color: white;
+    font-size: 1.4vw;
+}
+
+
+
+.Our-Branches{
+    height: 60vh;
+    width: 100vw;
+    background-color: black;
+}
+.footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.locations{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: inherit;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.place-names{
+    text-align: center  ;
+}
+
+.location{
+    height : 90%;
+    width : 30%;
+    /* padding: 2%; */
+    box-shadow: 0 0 5px 2px white;
+    background: transparent;
+    
+}
+.map{
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    color: gray;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.inner-link:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: #4217a6;
+    padding: 2px 12px;
+    border-radius: 20px;
+}
+.hiring-section:hover{
+    background-color: black;
+    color: white;
+}

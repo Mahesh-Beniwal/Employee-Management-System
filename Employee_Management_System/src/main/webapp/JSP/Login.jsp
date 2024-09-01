@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert </title>
-    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="../css/Login.css">
 </head>
 <body>
     <section class="container">
@@ -22,7 +22,7 @@
                         </div>
                         <input type="submit" name="submit" id="submit" value="Sign-in">
                         <Div>Don't have an account.. ?
-                            <a href="/Registration.html">Register Here first
+                            <a href="EmployeeRegistration.jsp">Register Here first
                             </a>
                         </div>
                 </form>

@@ -5,13 +5,13 @@
 <head>
 <meta charset="UTF-8">
 <title>Registration Form</title>
-    <link rel="stylesheet" href="Registration.css">
+    <link rel="stylesheet" href="../css/Registration.css">
 </head>
 <body>
     <section class="container">
         <section class="box box1" id="welcome">
             <h2 class="heading"><pre>Welcome to 
-     <span id="Google">Google</span></pre></h2>
+     <span id="Google">One</span>-Solution</pre></h2>
      <h3 class="Note">Are you ready to Join Us ?</h3>
         </section>
         <section class="box box2" id="form_container">
@@ -42,7 +42,7 @@
                 <input type="password" id="ConfirmPassword" class="fields" name="ConfirmPassword">
 
                 <div class="buttons">
-                <a href="/login" class="button">Login</a>
+                <a href="Login.jsp" class="button">Login</a>
                 <input type="submit" name="submit" id="submit" class="button" value="Submit">
                 </div>
             </form>
