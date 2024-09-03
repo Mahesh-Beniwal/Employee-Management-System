@@ -14,19 +14,19 @@ import lombok.Setter;
 @EqualsAndHashCode
 @AllArgsConstructor
 @NoArgsConstructor
-public class EducationQualification {
+
+public class Request {
 
 	@Id
-	private int cousre_id;
-	private String course1;
-	private double course1Percentage;
-	private String course2;
-	private double course2Percentage;
-	private String course3;
-	private double course3Percentage;
+	private int id ;
 	
+	private Employee sender;
 	
-		
+	private Employee reciver;
 	
+	private String status;
 	
+	private String senderMessage;
+	
+	private String reciverMessage;
 }
