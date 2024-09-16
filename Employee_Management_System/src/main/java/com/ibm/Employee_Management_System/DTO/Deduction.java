@@ -19,9 +19,9 @@ public class Deduction {
 	private String employeeId;
 	private double deduction;
 	private String message;
-	
-	
-	
-	
-	
+
+
+
+
+
 }

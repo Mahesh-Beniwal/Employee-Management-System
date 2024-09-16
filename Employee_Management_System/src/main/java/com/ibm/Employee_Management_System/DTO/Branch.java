@@ -20,10 +20,10 @@ public class Branch {
 	private int BranchId;
 	private String location;
 	private String type;
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
 }

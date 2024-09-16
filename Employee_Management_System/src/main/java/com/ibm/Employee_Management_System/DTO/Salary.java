@@ -23,6 +23,8 @@ public class Salary {
 	private int HRA;
 	private int PF;
 	private int DA;
-	
-		
+
+	public double getTotalSalary() {
+		return basic + HRA + PF + DA;
+	}
 }

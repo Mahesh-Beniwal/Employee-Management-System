@@ -19,9 +19,9 @@ public class Department {
 	@Id
 	private int departmentId;
 	private String DepartmentName;
-	
-		
-	
-	
-	
+
+
+
+
+
 }

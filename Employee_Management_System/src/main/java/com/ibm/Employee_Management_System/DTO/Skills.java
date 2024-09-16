@@ -1,7 +1,5 @@
 package com.ibm.Employee_Management_System.DTO;
 
-import java.util.Objects;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
@@ -30,8 +28,8 @@ public class Skills {
 	private String skill8;
 	private String skill9;
 	private String skill10;
-	
-		
-	
-	
+
+
+
+
 }

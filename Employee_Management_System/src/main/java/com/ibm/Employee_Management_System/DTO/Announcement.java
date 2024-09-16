@@ -17,10 +17,10 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Announcement {
-	
+
 	@Id
 	private int announcementId;
 	private LocalDate dateOfAnnouncement;
-	
+
 	private Employee employee;
 }

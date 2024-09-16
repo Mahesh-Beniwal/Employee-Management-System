@@ -31,5 +31,5 @@ public class Eligibility {
 	private String degere10;
 
 
-	
+
 }

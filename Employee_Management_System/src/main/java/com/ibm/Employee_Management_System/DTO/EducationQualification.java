@@ -24,9 +24,9 @@ public class EducationQualification {
 	private double course2Percentage;
 	private String course3;
 	private double course3Percentage;
-	
-	
-		
-	
-	
+
+
+
+
+
 }

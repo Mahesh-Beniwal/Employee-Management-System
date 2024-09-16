@@ -1,7 +1,5 @@
 package com.ibm.Employee_Management_System.DTO;
 
-import java.util.Objects;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
@@ -22,5 +20,5 @@ public class Description {
 	private int descriptionId;
 	private String Heading;
 	private String detail;
-		
+
 }

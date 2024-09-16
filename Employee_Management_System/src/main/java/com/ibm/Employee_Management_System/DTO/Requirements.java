@@ -24,16 +24,16 @@ public class Requirements {
 	private LocalDate startingDate;
 	private LocalDate endingDate;
 	private String nameOfJob;
-	
+
 	private Skills skill;
 	private int startingPackage;
 	private int maximumPackage;
-	
+
 	private Description description;
-	
+
 	private Eligibility eligibility;
 
-	
-	
-	
+
+
+
 }

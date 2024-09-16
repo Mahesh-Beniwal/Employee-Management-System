@@ -19,7 +19,7 @@ import lombok.Setter;
 @NoArgsConstructor
 
 public class Candidate {
-	
+
 	@Id
 	@GeneratedValue( strategy = GenerationType.IDENTITY)
 	private int id ;
@@ -33,12 +33,12 @@ public class Candidate {
 	private String resultOfHiringProcedure;
 	@Lob
 	private byte [] resume;
-	
+
 	private EducationQualification education;
-	
+
 	private Requirements requirement;
-	
-	
-	
-	
+
+
+
+
 }
